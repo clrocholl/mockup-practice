@@ -1,0 +1,147 @@
+body {
+  font: 1.1em Verdana, Geneva, sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+  line-height: 1.4;
+}
+
+div.container {
+  width: 50rem;
+  position: relative;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+  height: 15rem;
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+}
+
+header h1 {
+  position: absolute;
+  top: 6.2rem;
+  left: 1.5rem;
+  color: white;
+  font: 2.8em Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+.tagline {
+  position: absolute;
+  top: 10rem;
+  left: 1.5rem;
+  color: darkgray;
+  font: 1.2em Verdana, Geneva, sans-serif;
+  font-weight: lighter;
+}
+
+nav {
+  width: 100%;
+  height: 3rem;
+  background-color: darkgray;
+  color: purple;
+  font: 1.2rem Verdana, Geneva, sans-serif;
+  display: inline-block;
+}
+
+nav ul {
+  position: relative;
+  display: flex;
+  text-align: center;
+  list-style: none;
+  justify-content: space-around;
+  padding: 0 1rem 0 1rem;
+}
+
+a {
+  color: purple;
+}
+
+a.book-now {
+  float: right;
+  color: red;
+  margin: auto .1rem .1rem auto;
+  padding-bottom: .2rem;
+}
+
+a:hover {
+  color: blue;
+}
+
+main {
+  position: relative;
+  justify-content: space-around;
+  display: inline-flex;
+  width: 50%;
+}
+
+article {
+  width: 90%
+}
+
+h2 {
+  font: 1.6em Verdana, Geneva, sans-serif;
+  margin-top: 1em;
+  margin-bottom: .3em;
+}
+
+aside {
+  float: right;
+  width: 39%;
+  margin: 1rem;
+  padding: .1rem;
+  font: 1rem Verdana, Geneva, sans-serif;
+  text-align: center;
+  overflow: auto;
+  border-width: .3rem;
+  border-color: darkgray;
+  border-style: solid;
+}
+
+figure {
+  line-height: 0%;
+  line-height: normal;
+}
+
+figure img {
+  width: 100%;
+  height: 100%;
+}
+
+figure a {
+  text-align: right;
+  color: red;
+}
+
+p.testimonial {
+  font-style: italic;
+}
+
+p.contact {
+  text-align: left;
+  font-size: 1rem;
+  font-family: Helvetica;
+  color: white;
+  padding: 1rem
+}
+
+p.copyright {
+  text-align: center;
+  font-size: 1rem;
+  font-family: Helvetica;
+  color: white;
+}
+
+.email {
+  color: red;
+  font: 1rem Verdana, Geneva, sans-serif;
+  text-align: left;
+}
+
+footer {
+  clear: both;
+  height: 100%;
+  background-color: black;
+}
