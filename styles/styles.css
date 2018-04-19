@@ -1,3 +1,6 @@
+html {
+  background-color: black;
+}
 body {
   font: 1.1em Verdana, Geneva, sans-serif;
   margin-right: auto;
@@ -6,10 +9,11 @@ body {
   line-height: 1.4;
 }
 
-div.container {
+.container {
   width: 50rem;
   position: relative;
   margin: auto;
+  background-color: white;
 }
 
 header {
@@ -19,7 +23,7 @@ header {
   font-family: Helvetica, sans-serif;
 }
 
-header h1 {
+h1 {
   position: absolute;
   top: 6.2rem;
   left: 1.5rem;
@@ -59,15 +63,11 @@ a {
   color: purple;
 }
 
-a.book-now {
+.book-now {
   float: right;
   color: red;
   margin: auto .1rem .1rem auto;
   padding-bottom: .2rem;
-}
-
-a:hover {
-  color: blue;
 }
 
 main {
@@ -91,53 +91,56 @@ aside {
   float: right;
   width: 39%;
   margin: 1rem;
-  padding: .1rem;
   font: 1rem Verdana, Geneva, sans-serif;
   text-align: center;
   overflow: auto;
-  border-width: .3rem;
-  border-color: darkgray;
   border-style: solid;
+  border-color: darkgray;
 }
 
 figure {
-  line-height: 0%;
+  line-height: 100%;
   line-height: normal;
 }
 
 img {
-  width:100%;
+  width: 100%;
 }
 
 figure a {
-  float:right;
-  color:red;
+  float: right;
+  color: red;
 }
 
-figure.profile {
+figure.cat-profile {
   float: left;
+  position: relative;
+  padding: .2rem;
+  justify-content: space-around;
   max-width: 16rem;
-  min-height: 25rem;
-  overflow:hidden;
+  min-height: 20rem;
+  overflow: hidden;
   text-align: center;
+  border-style: solid;
+  border-color: darkgray;
 }
 
-figure.profile img {
-  width:100%;
-  height:100%;
+figure.cat-profile img {
+  width: 100%;
+  height: 100%;
   overflow: hidden;
 }
 
-figure.profile p {
-  font-style:italic;
+figure.cat-profile p {
+  font-style: italic;
   font-size: .9rem;
 }
 
-p.testimonial {
+.testimonial {
   font-style: italic;
 }
 
-p.contact {
+.contact {
   text-align: left;
   font-size: 1rem;
   font-family: Helvetica;
@@ -145,7 +148,7 @@ p.contact {
   padding: 1rem
 }
 
-p.copyright {
+.copyright {
   text-align: center;
   font-size: 1rem;
   font-family: Helvetica;
